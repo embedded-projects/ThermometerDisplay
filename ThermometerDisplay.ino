@@ -4,6 +4,10 @@
 // - 0.96'' I2C Serial 128x64 OLED display
 // Developed by: Viet Nguyen
 // May 2016
+// Libraries used:
+// - Adafruit library for DHT11, DHT22: https://github.com/adafruit/DHT-sensor-library
+// - Adafruit GFX graphics core library: https://github.com/adafruit/Adafruit-GFX-Library
+// - Adafruit SSD1306 oled driver library for 'monochrome' 128x64 and 128x32 OLED: https://github.com/adafruit/Adafruit_SSD1306
 
 #include "DHT.h"
 #include <SPI.h>
